@@ -22,6 +22,7 @@
     "sass": "^1.44.0"
   },
   "devDependencies": {
+    "patch-package": "^6.4.7",
     "prettier": "^2.4.1"
   },
   "keywords": [
@@ -35,6 +36,7 @@
     "start": "gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
+    "postinstall": "patch-package",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "repository": {
