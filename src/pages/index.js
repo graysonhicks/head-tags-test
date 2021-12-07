@@ -13,7 +13,7 @@ const IndexPage = ({ data }) => {
     <Layout>
       <Seo
         title="Home"
-        image={data.image.childImageSharp.gatsbyImageData.src}
+        image={data.image.childImageSharp.gatsbyImageData.images.fallback.src}
       />
       <StaticImage
         src="../images/gatsby-astronaut.png"
